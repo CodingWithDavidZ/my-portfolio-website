@@ -916,6 +916,7 @@ url("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("wof
 .bi-markdown-fill::before { content: "\f480"; }
 .bi-markdown::before { content: "\f481"; }
 .bi-mask::before { content: "\f482"; }
+.bi-medium::before { content: "\f661"; }
 .bi-megaphone-fill::before { content: "\f483"; }
 .bi-megaphone::before { content: "\f484"; }
 .bi-menu-app-fill::before { content: "\f485"; }

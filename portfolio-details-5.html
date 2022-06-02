@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-		<title>Inner Page - iPortfolio Bootstrap Template</title>
+		<title>Bug Tracker Details</title>
 		<meta content="" name="description" />
 		<meta content="" name="keywords" />
 
@@ -55,17 +55,34 @@
 			<div class="d-flex flex-column">
 				<div class="profile">
 					<img
-						src="assets/img/profile-img.jpg"
+						src="assets/img/profile-img.jpeg"
 						alt=""
 						class="img-fluid rounded-circle"
 					/>
-					<h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+					<h1 class="text-light"><a href="index.html">David Zombar</a></h1>
 					<div class="social-links mt-3 text-center">
-						<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-						<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-						<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-						<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-						<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+						<a
+							href="https://github.com/CodingWithDavidZ"
+							target="_blank"
+							rel="noreferrer"
+							class="github"
+							><i class="bx bxl-github"></i
+						></a>
+
+						<a
+							href="https://medium.com/@CodingWithDavidZ"
+							target="_blank"
+							rel="noreferrer"
+							class="medium"
+							><i class="bx bxl-medium"></i
+						></a>
+						<a
+							href="https://www.linkedin.com/in/david-zombar-864794102/"
+							target="_blank"
+							rel="noreferrer"
+							class="linkedin"
+							><i class="bx bxl-linkedin-square"></i
+						></a>
 					</div>
 				</div>
 
@@ -91,11 +108,11 @@
 								><i class="bx bx-book-content"></i> <span>Portfolio</span></a
 							>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="#services" class="nav-link scrollto"
 								><i class="bx bx-server"></i> <span>Services</span></a
 							>
-						</li>
+						</li> -->
 						<li>
 							<a href="#contact" class="nav-link scrollto"
 								><i class="bx bx-envelope"></i> <span>Contact</span></a
@@ -110,33 +127,99 @@
 
 		<main id="main">
 			<!-- ======= Breadcrumbs ======= -->
-			<section class="breadcrumbs">
+			<section id="breadcrumbs" class="breadcrumbs">
 				<div class="container">
 					<div class="d-flex justify-content-between align-items-center">
-						<h2>Inner Page</h2>
+						<h2>Bug Tracker Details</h2>
 						<ol>
 							<li><a href="index.html">Home</a></li>
-							<li>Inner Page</li>
+							<li>Portfolio Details</li>
 						</ol>
 					</div>
 				</div>
 			</section>
 			<!-- End Breadcrumbs -->
 
-			<section class="inner-page">
+			<!-- ======= Portfolio Details Section ======= -->
+			<section id="portfolio-details" class="portfolio-details">
 				<div class="container">
-					<p>Example inner page template</p>
+					<div class="row gy-4">
+						<div class="col-lg-8">
+							<div class="portfolio-details-slider swiper">
+								<div class="swiper-wrapper align-items-center">
+									<!-- <div class="swiper-slide">
+										<img
+											src="assets/img/portfolio-5/1288x600_1.png"
+											alt=""
+										/>
+									</div>
+
+									<div class="swiper-slide">
+										<img
+											src="assets/img/portfolio-5/1288x600_2.png"
+											alt=""
+										/>
+									</div> -->
+
+									<div class="swiper-slide">
+										<img
+											src="assets/img/portfolio-5/1288x600_3.png"
+											alt=""
+										/>
+									</div>
+
+									<div class="swiper-slide">
+										<img
+											src="assets/img/portfolio-5/1288x600_4.png"
+											alt=""
+										/>
+									</div>
+
+									<div class="swiper-slide">
+										<img
+											src="assets/img/portfolio-5/1288x600_5.png"
+											alt=""
+										/>
+									</div>
+
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="portfolio-info">
+								<h3>Bug Tracker information</h3>
+								<ul>
+									<li><strong>Project</strong>: 5</li>
+									<li><strong>Client</strong>: Flatiron School</li>
+									<li><strong>Project date</strong>: 01 December, 2021</li>
+									<!-- <li>
+										<strong>Project URL</strong>:
+										<a href="#">www.example.com</a>
+									</li> -->
+								</ul>
+							</div>
+							<div class="portfolio-description">
+								<h2>Project details</h2>
+								<p>
+									This project is built using ReactJS, Ruby on Rails, TailwindCss, PostgreSQL, and React Query. The project is a bug tracker that allows users to create, edit, and delete bugs. React Query manages fetched state while also making the application more performant by using cached data. Global, using useContext, allows the state to be shared across the application. The back-end also uses BCrypt for password encryption.
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
+			<!-- End Portfolio Details Section -->
 		</main>
 		<!-- End #main -->
 
 		<!-- ======= Footer ======= -->
 		<footer id="footer">
 			<div class="container">
-				<div class="copyright">
+				<!-- <div class="copyright">
 					&copy; Copyright <strong><span>iPortfolio</span></strong>
-				</div>
+				</div> -->
 			</div>
 		</footer>
 		<!-- End  Footer -->
