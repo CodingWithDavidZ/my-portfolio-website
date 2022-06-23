@@ -1,5 +1,5 @@
-![www.codingwithdavidz.com](/assets/img/readme/Portfolio_Website.png)
+[![www.codingwithdavidz.com](/assets/img/readme/Portfolio_Website.png)](https://www.codingwithdavidz.com)
 
-# CodingWithDavidZ.com
+# [WWW.CodingWithDavidZ.com](https://www.CodingWithDavidZ.com)
 
 ## Portfolio webpage
