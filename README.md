@@ -1,4 +1,4 @@
-![www.codingwithdavidz.com](https://imgur.com/a/0zU4Ifk)
+![www.codingwithdavidz.com](/assets/img/readme/Portfolio_Website.png)
 
 # CodingWithDavidZ.com
 
