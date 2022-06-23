@@ -1,4 +1,4 @@
-[![(https://imgur.com/a/0zU4Ifk)](https://www.codingwithdavidz.com)
+![www.codingwithdavidz.com](https://imgur.com/a/0zU4Ifk)
 
 # CodingWithDavidZ.com
 
